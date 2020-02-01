@@ -1,3 +1,10 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :bodies
+  resources :attributes
+  resources :requests
+  resources :collections
+  # resources :users
+
+
+  post "/signup", to: "users#create"
 end

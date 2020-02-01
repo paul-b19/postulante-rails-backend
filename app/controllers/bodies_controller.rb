@@ -1,0 +1,2 @@
+class BodiesController < ApplicationController
+end
