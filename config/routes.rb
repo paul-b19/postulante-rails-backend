@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   resources :bodies
-  resources :attributes
+  resources :attribs
   resources :requests
   resources :collections
-  # resources :users
+  resources :users
 
 
   post "/signup", to: "users#create"

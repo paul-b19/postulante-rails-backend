@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2020_01_28_151623) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "attributes", force: :cascade do |t|
+  create_table "attribs", force: :cascade do |t|
     t.string "attr_type"
     t.string "key"
     t.string "value"
