@@ -8,8 +8,40 @@ class UsersController < ApplicationController
 
   # GET /Users/:id
   def show
-    user = User.find(params[:id])
-    render json: user, except: [:created_at, :updated_at]
+    user = User.find(user_params[:id])
+    render json: user.to_json(:include => {
+      :collections => {:only => [:id, :name, :user_id]}, 
+      :requests => {:except => [:created_at, :updated_at]}
+    }, :except => [:created_at, :updated_at])
+  end
+
+  # POST /users/  for signup
+  # def create
+  #   user = User.new(
+  #     username: user_params[:username],
+  #     password: user_params[:password])
+  #   if user.save
+  #     render json: user, except: [:password_digest, :created_at, :updated_at]
+  #   else
+  #     render json: {errors: user.errors.full_messages}
+  #   end
+  # end
+
+  # POST /users/  for login
+  # def login
+  #   user = User.find_by(username: user_params[:username])
+
+  #   if user && user.authenticate(user_params[:password])
+  #     render json: user, except: [:password_digest, :created_at, :updated_at]
+  #   else
+  #     render json: {errors: "Wrong Password!"}
+  #   end
+  # end
+
+  private
+  
+  def user_params
+    params.permit(:id, :username, :password)
   end
 
 

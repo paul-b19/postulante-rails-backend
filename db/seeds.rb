@@ -45,5 +45,28 @@ end
   )
 end
 
+40.times do
+  Attrib.create(
+    attr_type: ['params', 'headers', 'auth'].sample(),
+    key: Faker::Hipster.word,
+    value: Faker::Hipster.word,
+    description: Faker::Hipster.word,
+    request_id: Request.all.sample().id
+  )
+end
+
+i = 0
+40.times do
+  Body.create(
+    body_type: "#{i % 2 === 0 ? 'Form-Data' : 'Raw'}",
+    key: "#{i % 2 === 0 ? Faker::Hipster.word : nil}",
+    value: "#{i % 2 === 0 ? Faker::Hipster.word : nil}",
+    description: "#{i % 2 === 0 ? Faker::Hipster.word : nil}",
+    raw_body: "#{i % 2 === 1 ? Faker::Hipster.word : nil}",
+    request_id: Request.all.sample().id
+  )
+  i += 1
+end
+
 puts 'Done 👌'
 

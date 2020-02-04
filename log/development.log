@@ -1794,3 +1794,813 @@ Processing by CollectionsController#index as */*
 Completed 200 OK in 16ms (Views: 2.2ms | ActiveRecord: 13.7ms | Allocations: 1088)
 
 
+Started GET "/collections" for ::1 at 2020-02-02 21:41:40 -0500
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CollectionsController#index as */*
+  [1m[36mCollection Load (0.7ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 28ms (Views: 6.5ms | ActiveRecord: 16.0ms | Allocations: 6195)
+
+
+Started GET "/collections" for ::1 at 2020-02-02 21:52:21 -0500
+Processing by CollectionsController#index as */*
+  [1m[36mCollection Load (2.2ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 30ms (Views: 17.8ms | ActiveRecord: 2.2ms | Allocations: 1173)
+
+
+Started GET "/collections" for ::1 at 2020-02-02 21:54:44 -0500
+Processing by CollectionsController#index as */*
+  [1m[36mCollection Load (0.7ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.7ms | Allocations: 1106)
+
+
+Started GET "/collections" for ::1 at 2020-02-02 21:54:46 -0500
+Processing by CollectionsController#index as */*
+  [1m[36mCollection Load (0.6ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.6ms | Allocations: 1106)
+
+
+Started GET "/collections" for ::1 at 2020-02-02 21:55:14 -0500
+Processing by CollectionsController#index as */*
+  [1m[36mCollection Load (4.0ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 7ms (Views: 2.2ms | ActiveRecord: 4.0ms | Allocations: 1088)
+
+
+Started GET "/collections" for ::1 at 2020-02-02 21:56:24 -0500
+Processing by CollectionsController#index as */*
+  [1m[36mCollection Load (1.1ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 1.1ms | Allocations: 1088)
+
+
+Started GET "/collections" for ::1 at 2020-02-02 21:56:34 -0500
+Processing by CollectionsController#index as */*
+  [1m[36mCollection Load (15.5ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 19ms (Views: 3.0ms | ActiveRecord: 15.5ms | Allocations: 1106)
+
+
+Started GET "/collections" for ::1 at 2020-02-02 21:57:59 -0500
+Processing by CollectionsController#index as */*
+  [1m[36mCollection Load (0.4ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms | Allocations: 1088)
+
+
+Started GET "/collections" for ::1 at 2020-02-02 22:02:37 -0500
+Processing by CollectionsController#index as */*
+  [1m[36mCollection Load (0.4ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.4ms | Allocations: 1088)
+
+
+Started GET "/collections" for ::1 at 2020-02-02 22:03:18 -0500
+Processing by CollectionsController#index as */*
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.3ms | Allocations: 1088)
+
+
+Started GET "/collections" for ::1 at 2020-02-02 22:03:45 -0500
+Processing by CollectionsController#index as */*
+  [1m[36mCollection Load (0.4ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.4ms | Allocations: 1088)
+
+
+Started GET "/collections" for ::1 at 2020-02-02 22:04:02 -0500
+Processing by CollectionsController#index as */*
+  [1m[36mCollection Load (1.2ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 1.2ms | Allocations: 1088)
+
+
+Started GET "/collections" for ::1 at 2020-02-02 22:05:37 -0500
+Processing by CollectionsController#index as */*
+  [1m[36mCollection Load (0.5ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.5ms | Allocations: 1088)
+
+
+Started GET "/collections" for ::1 at 2020-02-02 22:29:30 -0500
+Processing by CollectionsController#index as HTML
+  [1m[36mCollection Load (3.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 17ms (Views: 12.1ms | ActiveRecord: 3.3ms | Allocations: 1160)
+
+
+Started GET "/collections" for ::1 at 2020-02-03 14:25:50 -0500
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CollectionsController#index as */*
+  [1m[36mCollection Load (13.7ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 47ms (Views: 8.9ms | ActiveRecord: 32.2ms | Allocations: 6195)
+
+
+Started GET "/collections" for ::1 at 2020-02-03 14:31:00 -0500
+Processing by CollectionsController#index as */*
+  [1m[36mCollection Load (0.6ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.6ms | Allocations: 1106)
+
+
+Started GET "/collections" for ::1 at 2020-02-03 20:40:01 -0500
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CollectionsController#index as HTML
+  [1m[36mCollection Load (6.9ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 40ms (Views: 6.0ms | ActiveRecord: 27.3ms | Allocations: 6195)
+
+
+Started GET "/records" for ::1 at 2020-02-03 20:40:10 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/records"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/requests" for ::1 at 2020-02-03 20:40:14 -0500
+Processing by RequestsController#index as HTML
+  [1m[36mRequest Load (11.0ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  ↳ app/controllers/requests_controller.rb:6:in `index'
+Completed 200 OK in 50ms (Views: 20.4ms | ActiveRecord: 21.4ms | Allocations: 8928)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Destroy (3.1ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mCollection Destroy (7.3ms)[0m  [1m[31mDELETE FROM "collections"[0m
+  [1m[36mRequest Destroy (12.5ms)[0m  [1m[31mDELETE FROM "requests"[0m
+  [1m[36mAttrib Destroy (6.6ms)[0m  [1m[31mDELETE FROM "attribs"[0m
+  [1m[36mBody Destroy (6.8ms)[0m  [1m[31mDELETE FROM "bodies"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Errol"], ["LIMIT", 1]]
+  [1m[36mUser Create (12.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Errol"], ["password_digest", "123"], ["created_at", "2020-02-04 02:34:23.628832"], ["updated_at", "2020-02-04 02:34:23.628832"]]
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Eugene"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Eugene"], ["password_digest", "123"], ["created_at", "2020-02-04 02:34:23.652637"], ["updated_at", "2020-02-04 02:34:23.652637"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Hollie"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Hollie"], ["password_digest", "123"], ["created_at", "2020-02-04 02:34:23.658187"], ["updated_at", "2020-02-04 02:34:23.658187"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCollection Create (0.5ms)[0m  [1m[32mINSERT INTO "collections" ("name", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "PoetryDB"], ["user_id", 4], ["created_at", "2020-02-04 02:34:23.674902"], ["updated_at", "2020-02-04 02:34:23.674902"]]
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCollection Create (0.4ms)[0m  [1m[32mINSERT INTO "collections" ("name", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Calendarific API"], ["user_id", 4], ["created_at", "2020-02-04 02:34:23.687166"], ["updated_at", "2020-02-04 02:34:23.687166"]]
+  [1m[35m (5.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCollection Create (0.4ms)[0m  [1m[32mINSERT INTO "collections" ("name", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "OCR API"], ["user_id", 4], ["created_at", "2020-02-04 02:34:23.707498"], ["updated_at", "2020-02-04 02:34:23.707498"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCollection Create (0.3ms)[0m  [1m[32mINSERT INTO "collections" ("name", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Unsorted"], ["user_id", 4], ["created_at", "2020-02-04 02:34:23.712430"], ["updated_at", "2020-02-04 02:34:23.712430"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.2ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.5ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "austin"], ["method", "PATCH"], ["url", "http://example.com/antoine"], ["collection_id", 8], ["created_at", "2020-02-04 02:34:23.725062"], ["updated_at", "2020-02-04 02:34:23.725062"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.2ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "pickled"], ["method", "POST"], ["url", "http://example.com/jody"], ["collection_id", 8], ["created_at", "2020-02-04 02:34:23.731131"], ["updated_at", "2020-02-04 02:34:23.731131"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.2ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.2ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "kinfolk"], ["method", "PUT"], ["url", "http://example.com/daisey_toy"], ["collection_id", 7], ["created_at", "2020-02-04 02:34:23.736966"], ["updated_at", "2020-02-04 02:34:23.736966"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.2ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "heirloom"], ["method", "POST"], ["url", "http://example.com/collin"], ["collection_id", 7], ["created_at", "2020-02-04 02:34:23.742775"], ["updated_at", "2020-02-04 02:34:23.742775"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.2ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "cred"], ["method", "PUT"], ["url", "http://example.com/ruell"], ["collection_id", 5], ["created_at", "2020-02-04 02:34:23.748977"], ["updated_at", "2020-02-04 02:34:23.748977"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.2ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.2ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "portland"], ["method", "PUT"], ["url", "http://example.com/walker"], ["collection_id", 8], ["created_at", "2020-02-04 02:34:23.754946"], ["updated_at", "2020-02-04 02:34:23.754946"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "scenester"], ["method", "GET"], ["url", "http://example.com/darell.weimann"], ["collection_id", 5], ["created_at", "2020-02-04 02:34:23.761052"], ["updated_at", "2020-02-04 02:34:23.761052"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.2ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.1ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.5ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "butcher"], ["method", "POST"], ["url", "http://example.com/columbus.roob"], ["collection_id", 8], ["created_at", "2020-02-04 02:34:23.767351"], ["updated_at", "2020-02-04 02:34:23.767351"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.2ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "narwhal"], ["method", "PUT"], ["url", "http://example.com/roana"], ["collection_id", 6], ["created_at", "2020-02-04 02:34:23.773779"], ["updated_at", "2020-02-04 02:34:23.773779"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.1ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "tattooed"], ["method", "PUT"], ["url", "http://example.com/gaye.marquardt"], ["collection_id", 7], ["created_at", "2020-02-04 02:34:23.779708"], ["updated_at", "2020-02-04 02:34:23.779708"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.1ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "meh"], ["method", "PUT"], ["url", "http://example.com/bridgett_bartoletti"], ["collection_id", 5], ["created_at", "2020-02-04 02:34:23.785657"], ["updated_at", "2020-02-04 02:34:23.785657"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.1ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.4ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "sriracha"], ["method", "POST"], ["url", "http://example.com/sherron"], ["collection_id", 5], ["created_at", "2020-02-04 02:34:23.791715"], ["updated_at", "2020-02-04 02:34:23.791715"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.2ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "hammock"], ["method", "PUT"], ["url", "http://example.com/santo.ondricka"], ["collection_id", 6], ["created_at", "2020-02-04 02:34:23.797958"], ["updated_at", "2020-02-04 02:34:23.797958"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.1ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.4ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "tattooed"], ["method", "PATCH"], ["url", "http://example.com/osvaldo.roob"], ["collection_id", 6], ["created_at", "2020-02-04 02:34:23.803939"], ["updated_at", "2020-02-04 02:34:23.803939"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.2ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "marfa"], ["method", "POST"], ["url", "http://example.com/idell_gottlieb"], ["collection_id", 7], ["created_at", "2020-02-04 02:34:23.810256"], ["updated_at", "2020-02-04 02:34:23.810256"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.2ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.4ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "PBR&B"], ["method", "PUT"], ["url", "http://example.com/sherry_tillman"], ["collection_id", 6], ["created_at", "2020-02-04 02:34:23.816641"], ["updated_at", "2020-02-04 02:34:23.816641"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.1ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "bitters"], ["method", "PUT"], ["url", "http://example.com/delicia"], ["collection_id", 7], ["created_at", "2020-02-04 02:34:23.822732"], ["updated_at", "2020-02-04 02:34:23.822732"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.1ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "cardigan"], ["method", "GET"], ["url", "http://example.com/wyatt"], ["collection_id", 6], ["created_at", "2020-02-04 02:34:23.828688"], ["updated_at", "2020-02-04 02:34:23.828688"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.1ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "artisan"], ["method", "PUT"], ["url", "http://example.com/candra"], ["collection_id", 5], ["created_at", "2020-02-04 02:34:23.834658"], ["updated_at", "2020-02-04 02:34:23.834658"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mCollection Load (0.3ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCollection Load (0.2ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mRequest Create (0.4ms)[0m  [1m[32mINSERT INTO "requests" ("title", "method", "url", "collection_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "williamsburg"], ["method", "POST"], ["url", "http://example.com/jacinto.nitzsche"], ["collection_id", 7], ["created_at", "2020-02-04 02:34:23.840821"], ["updated_at", "2020-02-04 02:34:23.840821"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.8ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "params"], ["key", "kitsch"], ["value", "freegan"], ["description", "retro"], ["request_id", 29], ["created_at", "2020-02-04 02:34:23.854903"], ["updated_at", "2020-02-04 02:34:23.854903"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.4ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "auth"], ["key", "pitchfork"], ["value", "chartreuse"], ["description", "meggings"], ["request_id", 38], ["created_at", "2020-02-04 02:34:23.861956"], ["updated_at", "2020-02-04 02:34:23.861956"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "params"], ["key", "keytar"], ["value", "XOXO"], ["description", "selfies"], ["request_id", 23], ["created_at", "2020-02-04 02:34:23.868500"], ["updated_at", "2020-02-04 02:34:23.868500"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.5ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.4ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "meh"], ["value", "cleanse"], ["description", "kickstarter"], ["request_id", 21], ["created_at", "2020-02-04 02:34:23.877055"], ["updated_at", "2020-02-04 02:34:23.877055"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "params"], ["key", "tattooed"], ["value", "selvage"], ["description", "ethical"], ["request_id", 30], ["created_at", "2020-02-04 02:34:23.883727"], ["updated_at", "2020-02-04 02:34:23.883727"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[36mAttrib Create (1.1ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "farm-to-table"], ["value", "lomo"], ["description", "selfies"], ["request_id", 27], ["created_at", "2020-02-04 02:34:23.890386"], ["updated_at", "2020-02-04 02:34:23.890386"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.4ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "banjo"], ["value", "pop-up"], ["description", "meh"], ["request_id", 25], ["created_at", "2020-02-04 02:34:23.898123"], ["updated_at", "2020-02-04 02:34:23.898123"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.4ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "auth"], ["key", "microdosing"], ["value", "actually"], ["description", "vinegar"], ["request_id", 23], ["created_at", "2020-02-04 02:34:23.905534"], ["updated_at", "2020-02-04 02:34:23.905534"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.5ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.4ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "asymmetrical"], ["value", "banjo"], ["description", "vinegar"], ["request_id", 22], ["created_at", "2020-02-04 02:34:23.913633"], ["updated_at", "2020-02-04 02:34:23.913633"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.4ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "params"], ["key", "carry"], ["value", "slow-carb"], ["description", "phlogiston"], ["request_id", 31], ["created_at", "2020-02-04 02:34:23.920447"], ["updated_at", "2020-02-04 02:34:23.920447"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.4ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "auth"], ["key", "humblebrag"], ["value", "shoreditch"], ["description", "meditation"], ["request_id", 30], ["created_at", "2020-02-04 02:34:23.927079"], ["updated_at", "2020-02-04 02:34:23.927079"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.4ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "biodiesel"], ["value", "gentrify"], ["description", "church-key"], ["request_id", 39], ["created_at", "2020-02-04 02:34:23.934199"], ["updated_at", "2020-02-04 02:34:23.934199"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.9ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.4ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "params"], ["key", "waistcoat"], ["value", "heirloom"], ["description", "letterpress"], ["request_id", 31], ["created_at", "2020-02-04 02:34:23.944238"], ["updated_at", "2020-02-04 02:34:23.944238"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "params"], ["key", "vinyl"], ["value", "gentrify"], ["description", "marfa"], ["request_id", 31], ["created_at", "2020-02-04 02:34:23.950905"], ["updated_at", "2020-02-04 02:34:23.950905"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "dreamcatcher"], ["value", "synth"], ["description", "typewriter"], ["request_id", 25], ["created_at", "2020-02-04 02:34:23.957329"], ["updated_at", "2020-02-04 02:34:23.957329"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "auth"], ["key", "offal"], ["value", "YOLO"], ["description", "try-hard"], ["request_id", 27], ["created_at", "2020-02-04 02:34:23.964116"], ["updated_at", "2020-02-04 02:34:23.964116"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "mlkshk"], ["value", "tilde"], ["description", "pabst"], ["request_id", 31], ["created_at", "2020-02-04 02:34:23.970671"], ["updated_at", "2020-02-04 02:34:23.970671"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.5ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.4ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "params"], ["key", "organic"], ["value", "artisan"], ["description", "pitchfork"], ["request_id", 25], ["created_at", "2020-02-04 02:34:23.997248"], ["updated_at", "2020-02-04 02:34:23.997248"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "lumbersexual"], ["value", "yr"], ["description", "offal"], ["request_id", 35], ["created_at", "2020-02-04 02:34:24.003630"], ["updated_at", "2020-02-04 02:34:24.003630"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.4ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "auth"], ["key", "pickled"], ["value", "wolf"], ["description", "Thundercats"], ["request_id", 35], ["created_at", "2020-02-04 02:34:24.009759"], ["updated_at", "2020-02-04 02:34:24.009759"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "polaroid"], ["value", "brooklyn"], ["description", "marfa"], ["request_id", 34], ["created_at", "2020-02-04 02:34:24.015653"], ["updated_at", "2020-02-04 02:34:24.015653"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "DIY"], ["value", "cliche"], ["description", "migas"], ["request_id", 22], ["created_at", "2020-02-04 02:34:24.021472"], ["updated_at", "2020-02-04 02:34:24.021472"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "auth"], ["key", "chicharrones"], ["value", "street"], ["description", "bitters"], ["request_id", 29], ["created_at", "2020-02-04 02:34:24.027308"], ["updated_at", "2020-02-04 02:34:24.027308"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "squid"], ["value", "kickstarter"], ["description", "cornhole"], ["request_id", 25], ["created_at", "2020-02-04 02:34:24.033435"], ["updated_at", "2020-02-04 02:34:24.033435"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.4ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "params"], ["key", "portland"], ["value", "franzen"], ["description", "church-key"], ["request_id", 29], ["created_at", "2020-02-04 02:34:24.039701"], ["updated_at", "2020-02-04 02:34:24.039701"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "gentrify"], ["value", "authentic"], ["description", "loko"], ["request_id", 30], ["created_at", "2020-02-04 02:34:24.045463"], ["updated_at", "2020-02-04 02:34:24.045463"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "params"], ["key", "flannel"], ["value", "goth"], ["description", "disrupt"], ["request_id", 22], ["created_at", "2020-02-04 02:34:24.051811"], ["updated_at", "2020-02-04 02:34:24.051811"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "params"], ["key", "vegan"], ["value", "literally"], ["description", "keffiyeh"], ["request_id", 24], ["created_at", "2020-02-04 02:34:24.058051"], ["updated_at", "2020-02-04 02:34:24.058051"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "mumblecore"], ["value", "meh"], ["description", "try-hard"], ["request_id", 35], ["created_at", "2020-02-04 02:34:24.063924"], ["updated_at", "2020-02-04 02:34:24.063924"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 37], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "auth"], ["key", "chambray"], ["value", "retro"], ["description", "migas"], ["request_id", 37], ["created_at", "2020-02-04 02:34:24.069882"], ["updated_at", "2020-02-04 02:34:24.069882"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "auth"], ["key", "intelligentsia"], ["value", "Yuccie"], ["description", "schlitz"], ["request_id", 22], ["created_at", "2020-02-04 02:34:24.075638"], ["updated_at", "2020-02-04 02:34:24.075638"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.5ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "auth"], ["key", "narwhal"], ["value", "farm-to-table"], ["description", "bushwick"], ["request_id", 35], ["created_at", "2020-02-04 02:34:24.082001"], ["updated_at", "2020-02-04 02:34:24.082001"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.4ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "meh"], ["value", "cold-pressed"], ["description", "celiac"], ["request_id", 35], ["created_at", "2020-02-04 02:34:24.088204"], ["updated_at", "2020-02-04 02:34:24.088204"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "params"], ["key", "street"], ["value", "kinfolk"], ["description", "Thundercats"], ["request_id", 28], ["created_at", "2020-02-04 02:34:24.094174"], ["updated_at", "2020-02-04 02:34:24.094174"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.4ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "whatever"], ["value", "normcore"], ["description", "phlogiston"], ["request_id", 34], ["created_at", "2020-02-04 02:34:24.100666"], ["updated_at", "2020-02-04 02:34:24.100666"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.3ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "params"], ["key", "pinterest"], ["value", "microdosing"], ["description", "chartreuse"], ["request_id", 23], ["created_at", "2020-02-04 02:34:24.106996"], ["updated_at", "2020-02-04 02:34:24.106996"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.6ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.4ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "auth"], ["key", "VHS"], ["value", "butcher"], ["description", "Thundercats"], ["request_id", 24], ["created_at", "2020-02-04 02:34:24.114579"], ["updated_at", "2020-02-04 02:34:24.114579"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.5ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.4ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "auth"], ["key", "umami"], ["value", "actually"], ["description", "vice"], ["request_id", 24], ["created_at", "2020-02-04 02:34:24.121934"], ["updated_at", "2020-02-04 02:34:24.121934"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.5ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "dreamcatcher"], ["value", "franzen"], ["description", "skateboard"], ["request_id", 23], ["created_at", "2020-02-04 02:34:24.129362"], ["updated_at", "2020-02-04 02:34:24.129362"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mAttrib Create (0.4ms)[0m  [1m[32mINSERT INTO "attribs" ("attr_type", "key", "value", "description", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["attr_type", "headers"], ["key", "cronut"], ["value", "Yuccie"], ["description", "synth"], ["request_id", 29], ["created_at", "2020-02-04 02:34:24.136652"], ["updated_at", "2020-02-04 02:34:24.136652"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.5ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  [1m[36mBody Create (0.6ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "paleo"], ["value", "synth"], ["description", "carry"], ["raw_body", ""], ["request_id", 32], ["created_at", "2020-02-04 02:34:24.154785"], ["updated_at", "2020-02-04 02:34:24.154785"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "kitsch"], ["request_id", 34], ["created_at", "2020-02-04 02:34:24.162604"], ["updated_at", "2020-02-04 02:34:24.162604"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "venmo"], ["value", "marfa"], ["description", "aesthetic"], ["raw_body", ""], ["request_id", 28], ["created_at", "2020-02-04 02:34:24.168491"], ["updated_at", "2020-02-04 02:34:24.168491"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "semiotics"], ["request_id", 25], ["created_at", "2020-02-04 02:34:24.174256"], ["updated_at", "2020-02-04 02:34:24.174256"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  [1m[36mBody Create (0.4ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "cold-pressed"], ["value", "8-bit"], ["description", "umami"], ["raw_body", ""], ["request_id", 33], ["created_at", "2020-02-04 02:34:24.180228"], ["updated_at", "2020-02-04 02:34:24.180228"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "freegan"], ["request_id", 29], ["created_at", "2020-02-04 02:34:24.186296"], ["updated_at", "2020-02-04 02:34:24.186296"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "flannel"], ["value", "hammock"], ["description", "hella"], ["raw_body", ""], ["request_id", 40], ["created_at", "2020-02-04 02:34:24.192488"], ["updated_at", "2020-02-04 02:34:24.192488"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "locavore"], ["request_id", 32], ["created_at", "2020-02-04 02:34:24.198445"], ["updated_at", "2020-02-04 02:34:24.198445"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "chia"], ["value", "cold-pressed"], ["description", "PBR&B"], ["raw_body", ""], ["request_id", 31], ["created_at", "2020-02-04 02:34:24.204513"], ["updated_at", "2020-02-04 02:34:24.204513"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "street"], ["request_id", 33], ["created_at", "2020-02-04 02:34:24.210408"], ["updated_at", "2020-02-04 02:34:24.210408"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "tumblr"], ["value", "everyday"], ["description", "scenester"], ["raw_body", ""], ["request_id", 23], ["created_at", "2020-02-04 02:34:24.216283"], ["updated_at", "2020-02-04 02:34:24.216283"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "cliche"], ["request_id", 23], ["created_at", "2020-02-04 02:34:24.222082"], ["updated_at", "2020-02-04 02:34:24.222082"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mBody Create (0.4ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "gentrify"], ["value", "bitters"], ["description", "XOXO"], ["raw_body", ""], ["request_id", 22], ["created_at", "2020-02-04 02:34:24.228183"], ["updated_at", "2020-02-04 02:34:24.228183"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "+1"], ["request_id", 25], ["created_at", "2020-02-04 02:34:24.234330"], ["updated_at", "2020-02-04 02:34:24.234330"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "8-bit"], ["value", "typewriter"], ["description", "freegan"], ["raw_body", ""], ["request_id", 24], ["created_at", "2020-02-04 02:34:24.240318"], ["updated_at", "2020-02-04 02:34:24.240318"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "gentrify"], ["request_id", 23], ["created_at", "2020-02-04 02:34:24.246141"], ["updated_at", "2020-02-04 02:34:24.246141"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "cronut"], ["value", "neutra"], ["description", "austin"], ["raw_body", ""], ["request_id", 26], ["created_at", "2020-02-04 02:34:24.269010"], ["updated_at", "2020-02-04 02:34:24.269010"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "ugh"], ["request_id", 23], ["created_at", "2020-02-04 02:34:24.275142"], ["updated_at", "2020-02-04 02:34:24.275142"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "polaroid"], ["value", "retro"], ["description", "chambray"], ["raw_body", ""], ["request_id", 34], ["created_at", "2020-02-04 02:34:24.281132"], ["updated_at", "2020-02-04 02:34:24.281132"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "swag"], ["request_id", 25], ["created_at", "2020-02-04 02:34:24.286868"], ["updated_at", "2020-02-04 02:34:24.286868"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "twee"], ["value", "synth"], ["description", "humblebrag"], ["raw_body", ""], ["request_id", 35], ["created_at", "2020-02-04 02:34:24.292905"], ["updated_at", "2020-02-04 02:34:24.292905"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "meggings"], ["request_id", 24], ["created_at", "2020-02-04 02:34:24.298909"], ["updated_at", "2020-02-04 02:34:24.298909"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "90's"], ["value", "lomo"], ["description", "viral"], ["raw_body", ""], ["request_id", 21], ["created_at", "2020-02-04 02:34:24.304681"], ["updated_at", "2020-02-04 02:34:24.304681"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "gastropub"], ["request_id", 34], ["created_at", "2020-02-04 02:34:24.310828"], ["updated_at", "2020-02-04 02:34:24.310828"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "cliche"], ["value", "meh"], ["description", "freegan"], ["raw_body", ""], ["request_id", 34], ["created_at", "2020-02-04 02:34:24.316784"], ["updated_at", "2020-02-04 02:34:24.316784"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "neutra"], ["request_id", 32], ["created_at", "2020-02-04 02:34:24.322777"], ["updated_at", "2020-02-04 02:34:24.322777"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[36mBody Create (0.4ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "carry"], ["value", "salvia"], ["description", "locavore"], ["raw_body", ""], ["request_id", 31], ["created_at", "2020-02-04 02:34:24.328638"], ["updated_at", "2020-02-04 02:34:24.328638"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "8-bit"], ["request_id", 24], ["created_at", "2020-02-04 02:34:24.334508"], ["updated_at", "2020-02-04 02:34:24.334508"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "cray"], ["value", "ethical"], ["description", "taxidermy"], ["raw_body", ""], ["request_id", 34], ["created_at", "2020-02-04 02:34:24.340577"], ["updated_at", "2020-02-04 02:34:24.340577"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "venmo"], ["request_id", 34], ["created_at", "2020-02-04 02:34:24.346561"], ["updated_at", "2020-02-04 02:34:24.346561"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "normcore"], ["value", "pinterest"], ["description", "90's"], ["raw_body", ""], ["request_id", 21], ["created_at", "2020-02-04 02:34:24.352701"], ["updated_at", "2020-02-04 02:34:24.352701"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "literally"], ["request_id", 39], ["created_at", "2020-02-04 02:34:24.358672"], ["updated_at", "2020-02-04 02:34:24.358672"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "williamsburg"], ["value", "DIY"], ["description", "selvage"], ["raw_body", ""], ["request_id", 30], ["created_at", "2020-02-04 02:34:24.364488"], ["updated_at", "2020-02-04 02:34:24.364488"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "viral"], ["request_id", 25], ["created_at", "2020-02-04 02:34:24.370400"], ["updated_at", "2020-02-04 02:34:24.370400"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "cray"], ["value", "YOLO"], ["description", "roof"], ["raw_body", ""], ["request_id", 29], ["created_at", "2020-02-04 02:34:24.376271"], ["updated_at", "2020-02-04 02:34:24.376271"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "Godard"], ["request_id", 32], ["created_at", "2020-02-04 02:34:24.382282"], ["updated_at", "2020-02-04 02:34:24.382282"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "organic"], ["value", "PBR&B"], ["description", "meh"], ["raw_body", ""], ["request_id", 40], ["created_at", "2020-02-04 02:34:24.388096"], ["updated_at", "2020-02-04 02:34:24.388096"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.2ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "narwhal"], ["request_id", 22], ["created_at", "2020-02-04 02:34:24.394371"], ["updated_at", "2020-02-04 02:34:24.394371"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Form-Data"], ["key", "synth"], ["value", "8-bit"], ["description", "vinegar"], ["raw_body", ""], ["request_id", 28], ["created_at", "2020-02-04 02:34:24.400293"], ["updated_at", "2020-02-04 02:34:24.400293"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRequest Load (0.3ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  [1m[36mBody Create (0.3ms)[0m  [1m[32mINSERT INTO "bodies" ("body_type", "key", "value", "description", "raw_body", "request_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body_type", "Raw"], ["key", ""], ["value", ""], ["description", ""], ["raw_body", "cardigan"], ["request_id", 32], ["created_at", "2020-02-04 02:34:24.406070"], ["updated_at", "2020-02-04 02:34:24.406070"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/users" for ::1 at 2020-02-03 21:34:45 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:6:in `index'
+Completed 200 OK in 19ms (Views: 5.7ms | ActiveRecord: 7.2ms | Allocations: 6366)
+
+
+Started GET "/collections" for ::1 at 2020-02-03 21:35:20 -0500
+Processing by CollectionsController#index as HTML
+  [1m[36mCollection Load (0.7ms)[0m  [1m[34mSELECT "collections".* FROM "collections"[0m
+  ↳ app/controllers/collections_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 5.5ms | ActiveRecord: 4.9ms | Allocations: 5347)
+
+
+Started GET "/requests" for ::1 at 2020-02-03 21:35:38 -0500
+Processing by RequestsController#index as HTML
+  [1m[36mRequest Load (1.8ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  ↳ app/controllers/requests_controller.rb:6:in `index'
+Completed 200 OK in 30ms (Views: 16.0ms | ActiveRecord: 8.7ms | Allocations: 8784)
+
+
+Started GET "/attribs" for ::1 at 2020-02-03 21:36:13 -0500
+Processing by AttribsController#index as HTML
+  [1m[36mAttrib Load (1.7ms)[0m  [1m[34mSELECT "attribs".* FROM "attribs"[0m
+  ↳ app/controllers/attribs_controller.rb:6:in `index'
+Completed 200 OK in 41ms (Views: 28.1ms | ActiveRecord: 8.0ms | Allocations: 11057)
+
+
+Started GET "/bodies" for ::1 at 2020-02-03 21:36:53 -0500
+Processing by BodiesController#index as HTML
+  [1m[36mBody Load (3.9ms)[0m  [1m[34mSELECT "bodies".* FROM "bodies"[0m
+  ↳ app/controllers/bodies_controller.rb:6:in `index'
+Completed 200 OK in 54ms (Views: 32.0ms | ActiveRecord: 10.0ms | Allocations: 12260)
+
+
+Started GET "/users" for ::1 at 2020-02-03 23:14:45 -0500
+  [1m[35m (7.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (6.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:6:in `index'
+Completed 200 OK in 24ms (Views: 5.3ms | ActiveRecord: 13.2ms | Allocations: 6366)
+
+
+Started GET "/users/4" for ::1 at 2020-02-03 23:14:57 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:16:in `show'
+  [1m[36mCollection Load (1.9ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."user_id" = $1[0m  [["user_id", 4]]
+  ↳ app/controllers/users_controller.rb:17:in `show'
+Completed 200 OK in 51ms (Views: 0.1ms | ActiveRecord: 15.1ms | Allocations: 9846)
+
+
+Started GET "/users/4" for ::1 at 2020-02-03 23:22:20 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:16:in `show'
+  [1m[36mCollection Load (0.4ms)[0m  [1m[34mSELECT "collections".* FROM "collections" WHERE "collections"."user_id" = $1[0m  [["user_id", 4]]
+  ↳ app/controllers/users_controller.rb:17:in `show'
+  [1m[36mRequest Load (12.4ms)[0m  [1m[34mSELECT "requests".* FROM "requests" INNER JOIN "collections" ON "requests"."collection_id" = "collections"."id" WHERE "collections"."user_id" = $1[0m  [["user_id", 4]]
+  ↳ app/controllers/users_controller.rb:17:in `show'
+Completed 200 OK in 57ms (Views: 0.1ms | ActiveRecord: 21.4ms | Allocations: 21923)
+
+
+Started GET "/users" for ::1 at 2020-02-03 23:41:38 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 5.2ms | ActiveRecord: 0.8ms | Allocations: 5456)
+
+
+Started GET "/requests" for ::1 at 2020-02-03 23:41:42 -0500
+Processing by RequestsController#index as HTML
+  [1m[36mRequest Load (4.5ms)[0m  [1m[34mSELECT "requests".* FROM "requests"[0m
+  ↳ app/controllers/requests_controller.rb:6:in `index'
+Completed 200 OK in 19ms (Views: 8.9ms | ActiveRecord: 4.5ms | Allocations: 8333)
+
+
+Started GET "/requests/39" for ::1 at 2020-02-03 23:41:57 -0500
+Processing by RequestsController#show as HTML
+  Parameters: {"id"=>"39"}
+  [1m[36mRequest Load (1.5ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/requests_controller.rb:16:in `show'
+  [1m[36mAttrib Load (0.5ms)[0m  [1m[34mSELECT "attribs".* FROM "attribs" WHERE "attribs"."request_id" = $1[0m  [["request_id", 39]]
+  ↳ app/controllers/requests_controller.rb:17:in `show'
+  [1m[36mBody Load (0.5ms)[0m  [1m[34mSELECT "bodies".* FROM "bodies" WHERE "bodies"."request_id" = $1[0m  [["request_id", 39]]
+  ↳ app/controllers/requests_controller.rb:17:in `show'
+Completed 200 OK in 75ms (Views: 0.2ms | ActiveRecord: 32.4ms | Allocations: 14360)
+
+
+Started GET "/requests/21" for ::1 at 2020-02-03 23:42:58 -0500
+Processing by RequestsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mRequest Load (2.0ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/requests_controller.rb:16:in `show'
+  [1m[36mAttrib Load (0.5ms)[0m  [1m[34mSELECT "attribs".* FROM "attribs" WHERE "attribs"."request_id" = $1[0m  [["request_id", 21]]
+  ↳ app/controllers/requests_controller.rb:17:in `show'
+  [1m[36mBody Load (0.4ms)[0m  [1m[34mSELECT "bodies".* FROM "bodies" WHERE "bodies"."request_id" = $1[0m  [["request_id", 21]]
+  ↳ app/controllers/requests_controller.rb:17:in `show'
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 2.9ms | Allocations: 2583)
+
+
+Started GET "/requests/22" for ::1 at 2020-02-03 23:43:12 -0500
+Processing by RequestsController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mRequest Load (1.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/requests_controller.rb:16:in `show'
+  [1m[36mAttrib Load (0.8ms)[0m  [1m[34mSELECT "attribs".* FROM "attribs" WHERE "attribs"."request_id" = $1[0m  [["request_id", 22]]
+  ↳ app/controllers/requests_controller.rb:17:in `show'
+  [1m[36mBody Load (0.5ms)[0m  [1m[34mSELECT "bodies".* FROM "bodies" WHERE "bodies"."request_id" = $1[0m  [["request_id", 22]]
+  ↳ app/controllers/requests_controller.rb:17:in `show'
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 2.4ms | Allocations: 2961)
+
+
