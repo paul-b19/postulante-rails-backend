@@ -47,10 +47,20 @@ end
 
 40.times do
   Attrib.create(
-    attr_type: ['params', 'headers', 'auth'].sample(),
+    attr_type: ['params', 'headers'].sample(),
     key: Faker::Hipster.word,
     value: Faker::Hipster.word,
     description: Faker::Hipster.word,
+    request_id: Request.all.sample().id
+  )
+end
+
+20.times do
+  Attrib.create(
+    attr_type: 'auth',
+    key: Faker::Hipster.word,
+    value: Faker::Hipster.word,
+    description: ['headers', 'params'].sample(),
     request_id: Request.all.sample().id
   )
 end
