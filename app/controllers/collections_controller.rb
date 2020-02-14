@@ -25,6 +25,13 @@ class CollectionsController < ApplicationController
     render json: collection, except: [:created_at, :updated_at]
   end
 
+  # DELETE /collections/:id
+  def destroy
+    collection = Collection.find(collection_params[:id])
+    collection.destroy
+    head :no_content
+  end
+
   private
   
   def collection_params
