@@ -1,11 +1,5 @@
 class RequestsController < ApplicationController
 
-  # GET /requests/
-  def index
-    requests = Request.all
-    render json: requests, except: [:created_at, :updated_at]
-  end
-
   # GET /requests/:id
   def show
     request = Request.find(params[:id])

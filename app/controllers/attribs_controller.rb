@@ -1,17 +1,5 @@
 class AttribsController < ApplicationController
 
-  # GET /attribs/
-  def index
-    attribs = Attrib.all
-    render json: attribs, except: [:created_at, :updated_at]
-  end
-
-  # GET /attribs/:id
-  # def show
-  #   attrib = Attrib.find(params[:id])
-  #   render json: attrib, except: [:created_at, :updated_at]
-  # end
-
   # POST /attribs/
   def create
     attrib = Attrib.create(attrib_params)

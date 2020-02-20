@@ -1,17 +1,5 @@
 class BodiesController < ApplicationController
 
-  # GET /bodies/
-  def index
-    bodies = Body.all
-    render json: bodies, except: [:created_at, :updated_at]
-  end
-
-  # GET /bodies/:id
-  # def show
-  #   body = Body.find(params[:id])
-  #   render json: body, except: [:created_at, :updated_at]
-  # end
-
   # POST /bodies/
   def create
     body = Body.create(body_params)
